@@ -24,6 +24,52 @@ Once the development server is running, open your web browser and navigate to `h
 
 Feel free to reach out if you have any questions or need further assistance!
 
+5. **Open in Browser:**
+Once the development server is running, open your web browser and navigate to `http://localhost:3000` to view the application.
+
+# Explanation of Design and Technical Decisions
+
+## Components
+
+### Home Component (Home.js)
+```javascript
+import React from "react";
+import "./home.css";
+import EventCarousel from "./EventCarousel";
+import UpComingEvents from "./UpComingEvents";
+import githubImg from "../images/github.png";
+
+function Home() {
+return (
+ <>
+   {/* Hero section */}
+   <div className="hero">
+     {/* Hero content */}
+   </div>
+
+   {/* Event Carousel */}
+   <div className="eventCarousel">
+     {/* Carousel content */}
+   </div>
+
+   {/* Upcoming Events */}
+   <div className="upcomingEvents">
+     {/* Upcoming events content */}
+   </div>
+
+   {/* Footer */}
+   <footer>
+     <a href="https://github.com/ramesh043" target="_blank" rel="noreferrer">
+       <img src={githubImg} alt="github" width={20} />
+     </a>
+     <p>💛Created By Ramesh</p>
+   </footer>
+ </>
+);
+}
+
+export default Home;
+
 <h1>Thhis is BookUsnow Demo Website</h1>
 
 
