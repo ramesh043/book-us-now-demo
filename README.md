@@ -1,6 +1,5 @@
 
-5. **Open in Browser:**
-Once the development server is running, open your web browser and navigate to `http://localhost:3000` to view the application.
+
 
 # Explanation of Design and Technical Decisions
 
